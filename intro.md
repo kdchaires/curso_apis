@@ -1,6 +1,6 @@
 # APIs y Microservicios
 
-![Microservicios](https://www.bettercloud.com/monitor/wp-content/uploads/sites/3/2015/12/microservices-ftr.png)
+![Microservicios](https://upload.wikimedia.org/wikipedia/commons/thumb/2/20/Services4.png/640px-Services4.png)
 
 ---
 
@@ -17,12 +17,15 @@
 * QA
 
 ## Cuándo migrar
-* Problemas comunes
 * Por qué no migrar
+* Qué es?
+* Problemas comunes
 
 ## Creando microservicios
+* Evolucion
 * Arquitecturas
 * Variantes de arquitectura
+* Despliegues
 
 ## Tecnologías
 
@@ -58,10 +61,11 @@
 ##Monolitico vs Microservicios
 ![MonovsMicro](http://www.wwwlicious.com/content/images/2016/05/monolith-microservices.jpg)
 ---
+
 ## Cuándo migrar?
 
 ---
-### QAs
+### Qué QAs mejora/empeora
 * Desempeño
 * Seguridad
 * Consistencia
@@ -74,3 +78,41 @@
 * Consistencia
 * Desempeño
 ![Contras](https://martinfowler.com/articles/microservice-trade-offs.html)
+
+---
+
+### Qué es?
+* Patrón de arquitectura?
+* Estilo de arquitectura?
+* Diseño de arquitectura?
+
+---
+
+### Estilo de arquitectura
+![Estilo](https://upload.wikimedia.org/wikipedia/commons/7/7c/Microservice_Databases_with_a_new_service.png)
+
+---
+
+### Patrón(es) de arquitectura
+![Patron](https://upload.wikimedia.org/wikipedia/commons/thumb/9/9d/The-amqp-model-for-wikipedia.svg/2000px-The-amqp-model-for-wikipedia.svg.png)
+
+---
+### Problemas comunes 
+* Mantenimiento
+* Escalamiento (new)
+* Escalamiento independiente
+---
+
+## Cuándo migrar?
+
+---
+
+
+
+
+---
+### Entregas
+
+* Cómo controlar las entregas?
+* Qué equipos/personas requieres?
+* Qué infraestructura necesitas?
