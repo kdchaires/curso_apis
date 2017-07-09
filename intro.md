@@ -24,8 +24,8 @@
 ## Creando microservicios
 * Evolucion
 * Arquitecturas
-* Variantes de arquitectura
-* Despliegues
+* Patrones de arquitectura
+* Entregas
 
 ## Tecnologías
 
@@ -97,18 +97,42 @@
 ![Patron](https://upload.wikimedia.org/wikipedia/commons/thumb/9/9d/The-amqp-model-for-wikipedia.svg/2000px-The-amqp-model-for-wikipedia.svg.png)
 
 ---
+
+### Diseños arquitecturales
+* Mediator
+* Eventos
+* Suscriptores
+* Facade
+* Extension
+
+---
+
 ### Problemas comunes 
 * Mantenimiento
 * Escalamiento (new)
 * Escalamiento independiente
+
 ---
 
 ## Cuándo migrar?
 
 ---
 
+## Creando microservicios
 
+---
 
+### Evolucion
+
+![Evolucion](http://s2.quickmeme.com/img/9a/9a65126c95e46ca822a4e2176b8760afdc2b0cc71128d98d63a54879d3cb0b5d.jpg)
+
+---
+
+### Arquitecturas
+
+---
+
+### Patrones de arquitectura
 
 ---
 ### Entregas
@@ -116,3 +140,8 @@
 * Cómo controlar las entregas?
 * Qué equipos/personas requieres?
 * Qué infraestructura necesitas?
+
+
+---
+
+## Tecnologías
