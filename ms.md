@@ -30,7 +30,10 @@
 ## Tecnologías
 
 ## Ejercicio creando un MS
-
+* Arquitectura
+* Especificación
+* BD
+* 
 ---
 
 # [APIs]()
@@ -148,3 +151,10 @@
 ---
 
 ## Tecnologías
+
+
+---
+
+## Ejemplo...
+
+http://docs.microservice4.apiary.io/
