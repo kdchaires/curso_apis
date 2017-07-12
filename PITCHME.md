@@ -13,45 +13,45 @@
 ---
 
 # [Introduccion]()
-## Monolithic vs Microservices
+### Monolithic vs Microservices
 * QA
 
-## Cuándo migrar
+### Cuándo migrar
 * Por qué no migrar
 * Qué es?
 * Problemas comunes
 
-## Creando microservicios
+### Creando microservicios
 * Evolucion
 * Arquitecturas
 * Patrones de arquitectura
 * Entregas
 
-## Tecnologías
+### Tecnologías
 
-## Ejercicio creando un MS
+### Ejercicio creando un MS
 * Arquitectura
 * Especificación
 * BD
-* 
+
 ---
 
 # [APIs]()
-## Introducción a APIs
+### Introducción a APIs
 * Evolución
 
-## Evaluando APIs
+### Evaluando APIs
 * Qué se requiere para crear una buena API
 
-## Creando APIs
+### Creando APIs
 * Arquitecturas
 
-## Microframeworks
+### Microframeworks
 
 ---
 
 # [Microservicio]()
-## Creando un microservicio
+### Creando un microservicio
 * Arquitectura
 * Especificación
 * BD
