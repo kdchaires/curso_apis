@@ -45,7 +45,6 @@
 
 ## Creando APIs
 * Arquitecturas
-* Variantes de arquitectura
 
 ## Microframeworks
 
@@ -152,9 +151,10 @@
 
 ## Tecnologías
 
+![tech](https://drive.google.com/open?id=0B45R56o4mePLMzdiZ0JqOEpnWjQ)
 
 ---
 
 ## Ejemplo...
 
-http://docs.microservice4.apiary.io/
+[Especificación](http://docs.microservice4.apiary.io/)
