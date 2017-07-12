@@ -83,7 +83,7 @@
 ### Por qué no migrar
 * Consistencia
 * Desempeño
-![Contras](https://martinfowler.com/articles/microservice-trade-offs.html)
+[Contras](https://martinfowler.com/articles/microservice-trade-offs.html)
 
 ---
 
