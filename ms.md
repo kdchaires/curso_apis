@@ -29,6 +29,8 @@
 
 ## Tecnologías
 
+## Ejercicio creando un MS
+
 ---
 
 # [APIs]()
@@ -49,8 +51,9 @@
 # [Microservicio]()
 ## Creando un microservicio
 * Arquitectura
-* Microframework
+* Especificación
 * BD
+* Microframework
 * API Gateway
 * Front-end
 
