@@ -157,7 +157,9 @@
 
 ## Ejemplo...
 
-[Especificación](http://docs.microservice4.apiary.io/)
+* Arquitectura
+* [Especificación](http://docs.microservice4.apiary.io/)
+* BD
 
 ---
 
@@ -165,6 +167,22 @@
 [PHP](https://www.slant.co/topics/2642/~php-microframeworks)
 [Python](https://www.slant.co/topics/532/~best-python-microframeworks)
 [Golang](https://www.quora.com/Which-web-framework-for-the-Go-language-is-best-for-creating-a-REST-API)
+
+---
+
+## API Gateway
+[Kong]()
+[Tyk](https://cloud.tyk.io/)
+
+---
+
+## Tyk
+
+* Add new API
+* CORS
+* Add key
+* Save key
+* Store key!
 
 ---
 
