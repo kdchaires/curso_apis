@@ -171,7 +171,7 @@
 ---
 
 ## API Gateway
-[Kong]()
+[Kong](https://getkong.org/)
 [Tyk](https://cloud.tyk.io/)
 
 ---
