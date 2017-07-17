@@ -1,0 +1,81 @@
+swagger: "2.0"
+info:
+  version: 1.0.0
+  title: "Cargar_archivos"
+  description: Cargar los archivos de glosa de los pedimentos solicitados al SAT mediante un zip []
+  termsOfService: http://swagger.io/terms/
+  contact:
+    name: Entre todos
+    email: todos@softlogik.com
+    url: h
+host: google.com
+basePath: /api
+schemes:
+  - http
+  - https
+consumes:
+  - application/json
+produces:
+  - application/json
+paths:
+  /zip:
+    post:
+      description: ... Subir zip c
+      operationId: cargarzip
+      parameters:
+        - name: zip
+          in: query
+          description: el archivo que quieres subir
+          type: string
+          required: true
+      responses:
+        202:
+          description: se cargo correctamente
+          schema:
+            $ref: '#/definitions/Error'
+        400:
+          description: Tiene que ser un zip
+          schema:
+            $ref: '#/definitions/Error'
+        default:
+          description: unexpected error
+          schema:
+            $ref: '#/definitions/Error'
+definitions:
+  Pet:
+    allOf:
+      - $ref: '#/definitions/NewPet'
+      - required:
+        - id
+        properties:
+          id:
+            type: integer
+            format: int64
+  NewPet:
+    required:
+      - name
+    properties:
+      name:
+        type: string
+      tag:
+        type: string
+  Error:
+    required:
+      - code
+      - message
+    properties:
+      code:
+        type: integer
+        format: int32
+      message:
+        type: string
+  Ok:
+    required:
+      - code
+      - message
+    properties:
+      code:
+        type: integer
+        format: int32
+      message:
+        type: string
