@@ -11,8 +11,8 @@ info:
   license:
     name: MIT
     url: http://github.com/gruntjs/grunt/blob/master/LICENSE-MIT
-host: google.com
-basePath: /api
+host: 80.211.236.42
+basePath: /pago
 schemes:
   - http
 consumes:
