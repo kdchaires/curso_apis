@@ -1,0 +1,70 @@
+swagger: "2.0"
+info:
+  version: 1.0.0
+  title: "Pagos"
+  description: API para poder realizar pagos de los servicios de laboratorio especificacion en swagger-2.0
+  termsOfService: http://swagger.io/terms/
+  contact:
+    name: SLK
+    email: slk@softlogik.mx
+    url: http://softlogik.mx
+  license:
+    name: MIT
+    url: http://github.com/gruntjs/grunt/blob/master/LICENSE-MIT
+host: google.com
+basePath: /api
+schemes:
+  - http
+consumes:
+  - application/json
+produces:
+  - application/json
+paths:
+  /crear_cargo:
+    post:
+      description: Se envia la inforacion para poder realizar el cargo del servicio de laboratorio
+      operationId: addCargo
+      parameters:
+        - name: nombre
+          in: body
+          description: Datos de cliente con los que se va a realizar el cargo
+          required: true
+          schema:
+            $ref: '#/definitions/NewCargo'
+      responses:
+        200:
+          description: respuesta cargo
+          schema:
+            $ref: '#/definitions/Cargo'
+        default:
+          description: unexpected error
+          schema:
+            $ref: '#/definitions/Error'
+definitions:
+  Cargo:
+    allOf:
+      - $ref: '#/definitions/NewCargo'
+      - required:
+        - id
+        properties:
+          id:
+            type: integer
+            format: int64
+  NewCargo:
+    required:
+      - name
+    properties:
+      name:
+        type: string
+      tag:
+        type: string
+  Error:
+    required:
+      - code
+      - message
+    properties:
+      code:
+        type: integer
+        format: int32
+      message:
+        type: string
